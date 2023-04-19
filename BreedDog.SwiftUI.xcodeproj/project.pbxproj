@@ -7,18 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AF00D629EECB0000B5D39E /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF00D529EECB0000B5D39E /* CoffeeCell.swift */; };
+		14AF00D829EFF72A00B5D39E /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF00D729EFF72A00B5D39E /* OrderTotalView.swift */; };
+		14B7093529ECD9F9002137C9 /* DogMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7093429ECD9F9002137C9 /* DogMainView.swift */; };
+		14B7093B29ECDABD002137C9 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7093A29ECDABD002137C9 /* WeatherModel.swift */; };
+		14B7093E29ECDB61002137C9 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7093D29ECDB61002137C9 /* WeatherService.swift */; };
+		14B7094229ECE040002137C9 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7094129ECE040002137C9 /* WeatherViewModel.swift */; };
+		14B7094429ED4FDC002137C9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7094329ED4FDC002137C9 /* WeatherView.swift */; };
+		14B7094B29ED5908002137C9 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7094A29ED5908002137C9 /* OrderItem.swift */; };
+		14B7094D29ED5AA5002137C9 /* ProcessDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7094C29ED5AA5002137C9 /* ProcessDataService.swift */; };
+		14B7094F29ED5E5D002137C9 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7094E29ED5E5D002137C9 /* OrderService.swift */; };
+		14B7095129ED5F07002137C9 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095029ED5F07002137C9 /* OrderViewModel.swift */; };
+		14B7095329ED62B6002137C9 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095229ED62B6002137C9 /* OrderListView.swift */; };
+		14B7095629ED67F6002137C9 /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095529ED67F6002137C9 /* OrderItemView.swift */; };
+		14B7095829EE2744002137C9 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095729EE2744002137C9 /* CreateOrderResponse.swift */; };
+		14B7095A29EE283E002137C9 /* AddOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095929EE283E002137C9 /* AddOrderViewModel.swift */; };
+		14B7095C29EEA7FE002137C9 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095B29EEA7FE002137C9 /* Coffee.swift */; };
+		14B7095E29EEAD5E002137C9 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095D29EEAD5E002137C9 /* CoffeeViewModel.swift */; };
+		14B7096029EEC859002137C9 /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7095F29EEC859002137C9 /* AddOrderView.swift */; };
+		14C281E229E587930023ECD2 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C281E129E587930023ECD2 /* Practice.swift */; };
+		14C281E429E59AE10023ECD2 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C281E329E59AE10023ECD2 /* Items.swift */; };
+		14C281E729E59DBA0023ECD2 /* sampleCode.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 14C281E629E59DBA0023ECD2 /* sampleCode.rtf */; };
 		14EBE3D129E565B2005AF581 /* BreedDog_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3D029E565B2005AF581 /* BreedDog_SwiftUIApp.swift */; };
 		14EBE3D329E565B2005AF581 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3D229E565B2005AF581 /* ContentView.swift */; };
 		14EBE3D529E565B3005AF581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EBE3D429E565B3005AF581 /* Assets.xcassets */; };
 		14EBE3D829E565B3005AF581 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EBE3D729E565B3005AF581 /* Preview Assets.xcassets */; };
+		14EBE3DF29E5661A005AF581 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3DE29E5661A005AF581 /* CategoryCell.swift */; };
+		14EBE3E229E56A08005AF581 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3E129E56A08005AF581 /* Category.swift */; };
+		14EBE3E529E56BD8005AF581 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3E429E56BD8005AF581 /* Breed.swift */; };
+		14EBE3E729E56C7A005AF581 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3E629E56C7A005AF581 /* CategoryList.swift */; };
+		14EBE3E929E56E00005AF581 /* BreedDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBE3E829E56E00005AF581 /* BreedDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14AF00D529EECB0000B5D39E /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		14AF00D729EFF72A00B5D39E /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
+		14B7093429ECD9F9002137C9 /* DogMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogMainView.swift; sourceTree = "<group>"; };
+		14B7093A29ECDABD002137C9 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		14B7093D29ECDB61002137C9 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		14B7094129ECE040002137C9 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		14B7094329ED4FDC002137C9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		14B7094529ED5250002137C9 /* BreedDog-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BreedDog-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		14B7094A29ED5908002137C9 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		14B7094C29ED5AA5002137C9 /* ProcessDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessDataService.swift; sourceTree = "<group>"; };
+		14B7094E29ED5E5D002137C9 /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		14B7095029ED5F07002137C9 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		14B7095229ED62B6002137C9 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		14B7095529ED67F6002137C9 /* OrderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		14B7095729EE2744002137C9 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		14B7095929EE283E002137C9 /* AddOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewModel.swift; sourceTree = "<group>"; };
+		14B7095B29EEA7FE002137C9 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		14B7095D29EEAD5E002137C9 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		14B7095F29EEC859002137C9 /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		14C281E129E587930023ECD2 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		14C281E329E59AE10023ECD2 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		14C281E629E59DBA0023ECD2 /* sampleCode.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = sampleCode.rtf; sourceTree = "<group>"; };
 		14EBE3CD29E565B2005AF581 /* BreedDog.SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreedDog.SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EBE3D029E565B2005AF581 /* BreedDog_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDog_SwiftUIApp.swift; sourceTree = "<group>"; };
 		14EBE3D229E565B2005AF581 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14EBE3D429E565B3005AF581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14EBE3D729E565B3005AF581 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14EBE3DE29E5661A005AF581 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		14EBE3E129E56A08005AF581 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		14EBE3E429E56BD8005AF581 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		14EBE3E629E56C7A005AF581 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		14EBE3E829E56E00005AF581 /* BreedDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +85,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B7093329ECD9DD002137C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14B7093429ECD9F9002137C9 /* DogMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14B7093729ECDA9D002137C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14B7093A29ECDABD002137C9 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14B7093829ECDAA4002137C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094329ED4FDC002137C9 /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14B7093C29ECDB4D002137C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14B7093D29ECDB61002137C9 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		14B7093F29ECDB82002137C9 /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094029ECE00C002137C9 /* ViewModels */,
+				14B7093C29ECDB4D002137C9 /* Services */,
+				14B7093829ECDAA4002137C9 /* Views */,
+				14B7093729ECDA9D002137C9 /* Model */,
+			);
+			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		14B7094029ECE00C002137C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094129ECE040002137C9 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		14B7094629ED55D9002137C9 /* CoffeeOrder */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094929ED560C002137C9 /* ViewModels */,
+				14B7094829ED5600002137C9 /* Services */,
+				14B7094729ED55E5002137C9 /* Models */,
+				14B7095429ED62EC002137C9 /* Views */,
+			);
+			path = CoffeeOrder;
+			sourceTree = "<group>";
+		};
+		14B7094729ED55E5002137C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094A29ED5908002137C9 /* OrderItem.swift */,
+				14B7095729EE2744002137C9 /* CreateOrderResponse.swift */,
+				14B7095B29EEA7FE002137C9 /* Coffee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14B7094829ED5600002137C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094C29ED5AA5002137C9 /* ProcessDataService.swift */,
+				14B7094E29ED5E5D002137C9 /* OrderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		14B7094929ED560C002137C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				14B7095029ED5F07002137C9 /* OrderViewModel.swift */,
+				14B7095929EE283E002137C9 /* AddOrderViewModel.swift */,
+				14B7095D29EEAD5E002137C9 /* CoffeeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		14B7095429ED62EC002137C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14B7095229ED62B6002137C9 /* OrderListView.swift */,
+				14B7095529ED67F6002137C9 /* OrderItemView.swift */,
+				14B7095F29EEC859002137C9 /* AddOrderView.swift */,
+				14AF00D529EECB0000B5D39E /* CoffeeCell.swift */,
+				14AF00D729EFF72A00B5D39E /* OrderTotalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14C281E529E59DA50023ECD2 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				14B7094629ED55D9002137C9 /* CoffeeOrder */,
+				14B7093F29ECDB82002137C9 /* WeatherApp */,
+				14C281E629E59DBA0023ECD2 /* sampleCode.rtf */,
+				14C281E129E587930023ECD2 /* Practice.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
 		14EBE3C429E565B2005AF581 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +218,14 @@
 		14EBE3CF29E565B2005AF581 /* BreedDog.SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				14B7094529ED5250002137C9 /* BreedDog-SwiftUI-Info.plist */,
+				14B7093329ECD9DD002137C9 /* Views */,
+				14C281E529E59DA50023ECD2 /* Practice */,
+				14EBE3E329E56A2C005AF581 /* Model */,
 				14EBE3D029E565B2005AF581 /* BreedDog_SwiftUIApp.swift */,
 				14EBE3D229E565B2005AF581 /* ContentView.swift */,
+				14EBE3E029E568A3005AF581 /* Category */,
+				14EBE3EA29E56E06005AF581 /* Breed */,
 				14EBE3D429E565B3005AF581 /* Assets.xcassets */,
 				14EBE3D629E565B3005AF581 /* Preview Content */,
 			);
@@ -65,6 +238,33 @@
 				14EBE3D729E565B3005AF581 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14EBE3E029E568A3005AF581 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				14EBE3E629E56C7A005AF581 /* CategoryList.swift */,
+				14EBE3DE29E5661A005AF581 /* CategoryCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		14EBE3E329E56A2C005AF581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14EBE3E129E56A08005AF581 /* Category.swift */,
+				14EBE3E429E56BD8005AF581 /* Breed.swift */,
+				14C281E329E59AE10023ECD2 /* Items.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EBE3EA29E56E06005AF581 /* Breed */ = {
+			isa = PBXGroup;
+			children = (
+				14EBE3E829E56E00005AF581 /* BreedDetails.swift */,
+			);
+			path = Breed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14EBE3D829E565B3005AF581 /* Preview Assets.xcassets in Resources */,
+				14C281E729E59DBA0023ECD2 /* sampleCode.rtf in Resources */,
 				14EBE3D529E565B3005AF581 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +340,31 @@
 			files = (
 				14EBE3D329E565B2005AF581 /* ContentView.swift in Sources */,
 				14EBE3D129E565B2005AF581 /* BreedDog_SwiftUIApp.swift in Sources */,
+				14B7094B29ED5908002137C9 /* OrderItem.swift in Sources */,
+				14EBE3DF29E5661A005AF581 /* CategoryCell.swift in Sources */,
+				14B7095E29EEAD5E002137C9 /* CoffeeViewModel.swift in Sources */,
+				14B7094F29ED5E5D002137C9 /* OrderService.swift in Sources */,
+				14B7095829EE2744002137C9 /* CreateOrderResponse.swift in Sources */,
+				14AF00D829EFF72A00B5D39E /* OrderTotalView.swift in Sources */,
+				14B7094229ECE040002137C9 /* WeatherViewModel.swift in Sources */,
+				14B7095329ED62B6002137C9 /* OrderListView.swift in Sources */,
+				14B7096029EEC859002137C9 /* AddOrderView.swift in Sources */,
+				14EBE3E929E56E00005AF581 /* BreedDetails.swift in Sources */,
+				14B7094D29ED5AA5002137C9 /* ProcessDataService.swift in Sources */,
+				14B7094429ED4FDC002137C9 /* WeatherView.swift in Sources */,
+				14C281E429E59AE10023ECD2 /* Items.swift in Sources */,
+				14C281E229E587930023ECD2 /* Practice.swift in Sources */,
+				14B7095A29EE283E002137C9 /* AddOrderViewModel.swift in Sources */,
+				14B7093529ECD9F9002137C9 /* DogMainView.swift in Sources */,
+				14AF00D629EECB0000B5D39E /* CoffeeCell.swift in Sources */,
+				14B7093E29ECDB61002137C9 /* WeatherService.swift in Sources */,
+				14EBE3E529E56BD8005AF581 /* Breed.swift in Sources */,
+				14EBE3E229E56A08005AF581 /* Category.swift in Sources */,
+				14EBE3E729E56C7A005AF581 /* CategoryList.swift in Sources */,
+				14B7095629ED67F6002137C9 /* OrderItemView.swift in Sources */,
+				14B7093B29ECDABD002137C9 /* WeatherModel.swift in Sources */,
+				14B7095C29EEA7FE002137C9 /* Coffee.swift in Sources */,
+				14B7095129ED5F07002137C9 /* OrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +496,7 @@
 				DEVELOPMENT_TEAM = Q247WY3MHA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BreedDog-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +526,7 @@
 				DEVELOPMENT_TEAM = Q247WY3MHA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BreedDog-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
